@@ -4,10 +4,7 @@ const html = express();
 
 html.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://abdelrahman1427.github.io/",
-    ],
+    origin: ["http://localhost:3000", "https://abdelrahman1427.github.io"],
   })
 );
 let arr = [
