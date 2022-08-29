@@ -6,7 +6,7 @@ html.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://abdelrahman1427.github.io/react-js-project/",
+      "https://abdelrahman1427.github.io/",
     ],
   })
 );
